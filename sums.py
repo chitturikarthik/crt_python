@@ -1,9 +1,22 @@
-def isPrime(a):
-    if a<2:
-        return 0
-    for i in range(2,a):
-        if a%i==0:
-            return 0
-    return 1
+# n = int(input("Enter a number:"))
+# if n % 2 != 0:
+#     print("Weird")
+# elif n % 2 == 0 and 2 <= n <= 5:
+#     print("Not Weird")
+# elif n % 2 == 0 and 6 <= n <= 20:
+#     print("Weird")
+# elif n % 2 == 0 and n > 20:
+#     print("Not Weird")5
 
-n = int(input("Enter any number:"))
+
+# n = int(input())
+# for i in range(0,n):
+#     print(i)
+#     print(i*i)
+
+n=int(input("_____"))
+num=0
+for i in range(1,n+1):
+    rem=i
+    num=num*10+rem
+print(num)
