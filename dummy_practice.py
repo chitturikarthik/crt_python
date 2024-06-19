@@ -1,4 +1,2 @@
-n=input("Enter a string:")
-n_rev = list(n)
-rev_str = n_rev.reverse()
-print(rev_str)
+n=[1,2,1]
+print(n.length)
