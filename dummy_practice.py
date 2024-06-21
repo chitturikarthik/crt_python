@@ -23,10 +23,20 @@
 #     score=score+abs(al[i]-al[i+1])
 # print(score)
 
-res=0
-for i in range(1,5):
-    if i%2==0:
-        res+=i
-    else:
-        res-=i
-print(res)
+# res=0
+# for i in range(1,5):
+#     if i%2==0:
+#         res+=i
+#     else:
+#         res-=i
+# print(res)
+
+
+# duplicates
+nums=[1,2,3,4,5,6,7,8,9,1]
+for i in range(0,len(nums)-1):
+    for j in range(i+1,len(nums)):
+        if nums[i]!=nums[j]:
+            print("False")
+        else:
+            print("Tue")
