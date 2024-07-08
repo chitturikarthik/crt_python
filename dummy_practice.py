@@ -33,10 +33,14 @@
 
 
 # duplicates
-nums=[1,2,3,4,5,6,7,8,9,1]
-for i in range(0,len(nums)-1):
-    for j in range(i+1,len(nums)):
-        if nums[i]!=nums[j]:
-            print("False")
-        else:
-            print("Tue")
+# nums=[1,2,3,4,5,6,7,8,9,1]
+# for i in range(0,len(nums)-1):
+#     for j in range(i+1,len(nums)):
+#         if nums[i]!=nums[j]:
+#             print("False")
+#         else:
+#             print("Tue")
+a=map(int,input().split())
+arr=list(a)
+arr.sort()
+print(arr[-2])
